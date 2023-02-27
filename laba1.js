@@ -10,7 +10,4 @@ function calculate() {
 					const result = document.getElementById("result");
 					result.innerHTML = `Площа під кривою: ${data.result}`;
 				})
-				.catch(error => {
-					console.error('Error:', error);
-				});
 		}
